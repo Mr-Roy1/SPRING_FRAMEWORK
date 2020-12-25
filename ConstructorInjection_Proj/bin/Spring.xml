@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!-- Engine Bean -->
+<bean id="en" class="org.jsp.constructorInjectionApp.Engine">
+<constructor-arg name="engine_number" value="34512"></constructor-arg>
+<constructor-arg name="horse_power" value="345"></constructor-arg>
+<constructor-arg name="type" value="Petrol"></constructor-arg>
+</bean>
+
+<!-- Bmw Car bean -->
+<bean id="bm" class="org.jsp.constructorInjectionApp.BmwImpl">
+<constructor-arg name="id" value="777"></constructor-arg>
+<constructor-arg name="color" value="white"></constructor-arg>
+<!-- whenever we class type in that case we have to use ref attribute -->
+<constructor-arg name="engine" ref="en"></constructor-arg>
+<constructor-arg name="wheels" >
+  <list>
+    <value>Wheel1</value>
+    <value>Wheel2</value>
+    <value>Wheel3</value>
+    <value>Wheel4</value>
+  </list>
+</constructor-arg>
+</bean>
+
+<!-- Audi Car Bean -->
+<bean id="ad" class="org.jsp.constructorInjectionApp.AudiImpl">
+</bean>
+
+
+</beans>

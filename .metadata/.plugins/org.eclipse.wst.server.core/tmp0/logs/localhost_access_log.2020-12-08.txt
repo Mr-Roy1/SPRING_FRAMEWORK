@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [08/Dec/2020:00:50:32 +0530] "GET /SpringMVC_Project/ HTTP/1.1" 200 225
+0:0:0:0:0:0:0:1 - - [08/Dec/2020:00:50:54 +0530] "POST /SpringMVC_Project/btm HTTP/1.1" 200 188

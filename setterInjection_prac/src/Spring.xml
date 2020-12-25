@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!-- Engine bean -->
+<bean id="en" class="org.rai.practiceApp.Engine">
+<property name="engine_no" value="420"></property>
+<property name="horse_power" value="786"></property>
+<property name="type" value="diesel"></property>
+</bean>
+
+<!-- Bmw bean-->
+<bean id="bm" class="org.rai.practiceApp.Bmw">
+<property name="id" value="10"></property>
+<property name="color" value="blue"></property>
+<property name="engine" ref="en"></property>
+<property name="wheels" >
+  <list>
+    <value>Wheel1</value>
+    <value>Wheel2</value>
+    <value>Wheel3</value>
+    <value>Wheel4</value>
+  </list>
+</property>
+</bean>
+
+<!-- audi bean -->
+<bean id="ad" class="org.rai.practiceApp.Audi">
+
+</bean>
+
+</beans>

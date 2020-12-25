@@ -1,0 +1,15 @@
+package org.jsp.ormApp.controller;
+
+import org.jsp.ormApp.dto.Employee;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.servlet.DispatcherServlet;
+
+public class EmployeeController {
+	//DispatcherServlet  -->  //for fully qualified class name
+	
+	public String accessEmployee(@ModelAttribute Employee emp,ModelMap map) {
+		
+	}
+
+}

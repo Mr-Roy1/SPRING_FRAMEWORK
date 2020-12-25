@@ -1,0 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<meta charset="ISO-8859-1">
+<body>
+<h1>Registration Successfull</h1>
+<font color="red" size="4">Registered Employee is ${nmg}</font>
+</body>
+</html>

@@ -1,0 +1,12 @@
+INDEX VERSION 1.4+F:\eclipse-workspace-8\Spring frameWork\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1138984452.index
+3026868617.index
+2986642517.index
+5604063.index
+2225559754.index
+4038717615.index
+1572224336.index
+743905056.index
+743905056.index
+4108821604.index
+1148760585.index

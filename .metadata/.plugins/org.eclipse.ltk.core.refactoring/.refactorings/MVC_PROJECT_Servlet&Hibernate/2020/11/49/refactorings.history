@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;org.jsp.mvcApp.DAO.EmployoeeDAO&apos; to &apos;EmployeeDAO&apos;&#x0D;&#x0A;- Original project: &apos;MVC_PROJECT&apos;&#x0D;&#x0A;- Original element: &apos;org.jsp.mvcApp.DAO.EmployoeeDAO&apos;&#x0D;&#x0A;- Renamed element: &apos;org.jsp.mvcApp.DAO.EmployeeDAO&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;EmployoeeDAO&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;org.jsp.mvcApp.DAO{EmployoeeDAO.java[EmployoeeDAO" matchStrategy="1" name="EmployeeDAO" qualified="false" references="true" similarDeclarations="false" stamp="1606708771183" textual="false" version="1.0"/>
+</session>

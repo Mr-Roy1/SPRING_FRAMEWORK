@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>MVC_PROJECT_Servlet&amp;Hibernate</display-name>
+  <welcome-file-list>
+    <welcome-file>Register.html</welcome-file>
+  </welcome-file-list>
+  <servlet-mapping>
+    <servlet-name>EmployeeCont</servlet-name>
+    <url-pattern>/reg</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>EmployeeCont</servlet-name>
+    <servlet-class>org.jsp.mvcApp.Controller.EmployeeController</servlet-class>
+  </servlet>
+</web-app>

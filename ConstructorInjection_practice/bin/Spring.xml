@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!-- Engine bean -->
+<bean id="en" class="org.rai.practiceApp.Engine">
+<constructor-arg name="engine_no" value="420"></constructor-arg>
+<constructor-arg name="horse_power" value="786"></constructor-arg>
+<constructor-arg name="type" value="petrol"></constructor-arg>
+</bean>
+
+<!-- Bmw bean -->
+<bean id="bm" class="org.rai.practiceApp.Bmw">
+<constructor-arg name="id" value="210496"></constructor-arg>
+<constructor-arg name="color" value="black"></constructor-arg>
+<constructor-arg name="engine" ref="en"></constructor-arg>
+<constructor-arg name="wheels">
+  <list>
+    <value>Wheel1</value>
+    <value>Wheel2</value>
+    <value>Wheel3</value>
+    <value>Wheel4</value>
+  </list>
+</constructor-arg>
+</bean>
+
+<!-- Audi bean -->
+<bean id="ad" class="org.rai.practiceApp.Audi">
+
+</bean>
+
+
+</beans>

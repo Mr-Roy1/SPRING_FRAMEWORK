@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!-- Engine Bean -->
+<bean id="en" class="org.jsp.setterInjectionApp.Engine">
+<property name="engine_number" value="789874"></property>
+<property name="horse_power" value="180"></property>
+<property name="type" value="petrol"></property>
+</bean>
+
+<!-- Bmw Car Bean -->
+<bean id="bm" class="org.jsp.setterInjectionApp.BmwImpl">
+<property name="id" value="777"></property>
+<property name="color" value="white"></property>
+<!-- -whenever we use classType then we have to use ref attribute -->
+<property name="engine" ref="en"></property> 
+<property name="wheels" >
+  <list>
+    <value>Wheel1</value>
+    <value>Wheel2</value>
+    <value>Wheel3</value>
+    <value>Wheel4</value>
+  </list>
+</property>
+</bean>
+<!-- Audi car Bean -->
+<bean id="ad" class="org.jsp.setterInjectionApp.AudiImpl">
+</bean>
+</beans>

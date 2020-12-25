@@ -1,0 +1,33 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:lang="http://www.springframework.org/schema/lang"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd
+		http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang-3.1.xsd">
+		
+<context:annotation-config/>
+<context:component-scan base-package="org.jsp.ormApp"/>
+<!-- Display output on View Part -->
+<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+<property name="prefix" value="/WEB-INF/"/>
+<property name="suffix" value=".jsp"/>
+</bean>
+
+<!-- DataBase Connections -->
+<bean id="dataSource" class="">
+<property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+<property name="url" value="jdbc:mysql://localhost:3306/orm"/>
+<property name="username" value="root"/>
+<property name="password" value="root"/>
+</bean>
+<bean id="sessionFactory" class="">
+<property name="dataSource" ref="dataSource"/>
+<property name="annotatedClass">
+<list>
+<value>org.jsp.ormApp.dto.Employee</value>
+</list>
+</property>
+</bean>
+
+</beans>

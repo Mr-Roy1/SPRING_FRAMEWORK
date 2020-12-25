@@ -1,0 +1,5 @@
+package org.jsp.ormApp.dao;
+
+public class EmployeeDao {
+
+}

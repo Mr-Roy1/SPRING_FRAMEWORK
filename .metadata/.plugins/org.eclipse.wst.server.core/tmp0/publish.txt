@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Fri Dec 25 21:59:56 IST 2020
+org.eclipse.jst.jee.server\:/binary\:F\:\\eclipse-workspace-8\\Spring\ frameWork\\SpringMVC_Project\\WebContent\\WEB-INF\\lib\\spring-web-4.0.4.RELEASE.jar=WEB-INF/lib/spring-web-4.0.4.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:F\:\\eclipse-workspace-8\\Spring\ frameWork\\ORM_Project_Spring&Hibernate\\WebContent\\WEB-INF\\lib\\spring-web-4.0.4.RELEASE.jar=WEB-INF/lib/spring-web-4.0.4.RELEASE.jar

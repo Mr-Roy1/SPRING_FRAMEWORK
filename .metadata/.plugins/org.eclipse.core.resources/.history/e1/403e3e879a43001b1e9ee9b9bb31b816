@@ -1,0 +1,19 @@
+package org.jsp.ormApp.service;
+
+import org.jsp.ormApp.dao.EmployeeDao;
+import org.jsp.ormApp.dto.Employee;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class EmployeeService {
+	@Autowired
+	EmployeeDao dao;
+	public Employee registerEmployee(Employee emp) {
+		if(emp!=null) {
+			System.out.println("Inside EmployeeService Class");
+			
+		}
+	}
+
+}
