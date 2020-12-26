@@ -56,4 +56,8 @@
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
 <fullyQualifiedTypeName name="javax.sql.DataSource"/>
+<fullyQualifiedTypeName name="javax.activation.DataSource"/>
+<fullyQualifiedTypeName name="org.springframework.jdbc.datasource.DriverManagerDataSource"/>
+<fullyQualifiedTypeName name="org.springframework.orm.hibernate4.LocalSessionFactoryBean"/>
+<fullyQualifiedTypeName name="org.springframework.orm.hibernate4.LocalSessionFactoryBuilder"/>
 </qualifiedTypeNameHistroy>

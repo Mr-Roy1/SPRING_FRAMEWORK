@@ -21,7 +21,7 @@ public class Test {
 		
 		ApplicationContext conxt=new ClassPathXmlApplicationContext("Spring.xml");
 		HelloWorld hw1=(HelloWorld) conxt.getBean("hlw");
-		hw.displayMessage();
+		hw1.displayMessage();
 		
 	}
 }

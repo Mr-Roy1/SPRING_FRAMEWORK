@@ -6,9 +6,9 @@ import java.util.List;
 public class BmwImpl implements ICar {
 	
 	private int id;
-	private String color;             // PRIMITIVE DATATYPE //
-	private Engine engine;           //  CLASS TYPE //
-	private List <String> wheels;   // COLLECTION TYPE
+	private String color;               // PRIMITIVE DATATYPE 
+	private Engine engine;             //  CLASS TYPE //
+	private List <String> wheels;     //   COLLECTION TYPE
 	
 	
 	public BmwImpl(int id, String color, Engine engine, List<String> wheels) {
